@@ -47,6 +47,11 @@ namespace BDD_Autotrader.Steps
         {
             searchResultPage.ThenTheCarSearchedForIsDisplayedOnSearchResultPage(make);
         }
+        [Then(@"the result displayed contains ""(.*)""")]
+        public void ThenTheResultDisplayedContains(string make)
+        {
+            searchResultPage.ThenTheCarSearchedForIsDisplayedOnSearchResultPage(make);
+        }
 
     }
 }
