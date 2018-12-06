@@ -12,7 +12,7 @@ namespace BDD_Autotrader.SpecflowHooks
         [BeforeScenario]
         public void BeforeScenario()
         {
-            LaunchBrowser("Chrome");
+            LaunchBrowser("Firefox");
         }
 
         [AfterScenario]
